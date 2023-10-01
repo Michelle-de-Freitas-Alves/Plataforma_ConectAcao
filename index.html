@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ConectAção Verde</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #91d3ad; /* Cor de fundo verde */
+            margin: 0;
+            padding: 0;
+            background-image: url(pexels-robert-so-12033603.jpg);
+            background-size: 50% auto;
+        }
+
+        /* Barra de navegação superior */
+        .navbar {
+            background: linear-gradient(to bottom, #75d19b, #54a77e);
+            color: rgb(230, 231, 221);
+            padding: 7px;
+            text-align: right; /* Alinhe o texto à direita */
+
+        /* Adicione overflow para evitar que os links quebrem para a próxima linha */
+            overflow: hidden;
+        }
+
+        .nav-link {
+            float: right; /* Alinhe os links à direita */
+            margin-left: 10px; /* Adicione margem entre os links */
+        }
+
+        /* Layout de três colunas */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+        }
+
+        /* Coluna esquerda - Informações da barra lateral */
+        .sidebar {
+            width: 18%;
+            background-color: #27ae60; /* Cor de fundo da barra lateral */
+            color: white;
+            padding: 20px;
+        }
+
+        /* Coluna central - Quadro de postagens */
+        .main-content {
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            height: 100vh;
+            
+            
+        }
+
+        /* Coluna direita - Chat no canto inferior direito */
+        .chat {
+            width: 20%;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: rgba(191, 228, 194, 0.711);
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        /* Estilização do chat */
+        .chat h2 {
+            font-size: 15px;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        /* Estilização do quadro de postagens */
+        .post {
+            margin-bottom: 20px;
+        }
+
+        /* Estilização do botão de postagem */
+        .post-button {
+            background-color: #27ae60; /* Cor de fundo do botão */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Estilização do campo de texto para postagem */
+        .post-input {
+            width: 100%;
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>ConectAção Verde</h1>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+        <a href="amigos.html" class="nav-link">Amigos</a>
+        <a href="fotos.html" class="nav-link">Fotos</a>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <!-- Informações da barra lateral -->
+            <h2>Informações sobre conservação ambiental</h2>
+            <p>Seu conteúdo informativo aqui...</p>
+        </div>
+        <div class="main-content">
+            <!-- Quadro de postagens -->
+            <h2>Quadro de Postagens</h2>
+            <div class="post">
+                <p>Usuário Um: </p>
+            </div>
+            <!-- Adicione mais postagens aqui -->
+            <textarea class="post-input" placeholder="Faça sua postagem..."></textarea>
+            <button class="post-button">Postar</button>
+        </div>
+    </div>
+    <div class="chat">
+        <!-- Chat no canto inferior direito -->
+        <h2>Chat</h2>
+        <p>Converse aqui...</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+

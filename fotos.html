@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Fotos dos Projetos Ambientais</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para o cabeçalho */
+        h1 {
+            text-align: center;
+            background: linear-gradient(to bottom, #75d19b, #54a77e);
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+
+        /* Estilos para o link "Início" */
+        h1 a {
+            position: absolute;
+            top: 20px;
+            right: 100px; /* Reduza a distância da direita para diminuir o tamanho */
+            font-size: 14px; /* Define o tamanho da fonte do link */
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Estilos para a seção de conteúdo */
+        .content {
+            display: flex;
+            background-image: url(pexels-robert-so-12033603.jpg);
+            background-size: cover;
+            padding-top: 80px;
+        }
+
+        /* Estilos para a seção de fotos */
+        .photo-section {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .photo-box {
+            width: 200px;
+            height: 300px;
+            background-color: #fff;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        /* Estilos para a barra lateral com os nomes de usuários */
+        .user-names {
+            width: 15%;
+            padding: 20px;
+            background-color: #27ae60 /* Cor de fundo mais escura para a barra lateral */
+            
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="index.html">Início</a> Fotos dos Projetos Ambientais</h1>
+    <div class="content">
+        <div class="photo-section">
+            <!-- Adicione suas fotos aqui -->
+            <div class="photo-box">Foto 1</div>
+            <div class="photo-box">Foto 2</div>
+            <div class="photo-box">Foto 3</div>
+            <div class="photo-box">Foto 4</div>
+            <div class="photo-box">Foto 5</div>
+        </div>
+        <div class="user-names">
+            <!-- Nomes de usuários -->
+            <ul>
+                <li><i class="fas fa-user"></i> Usuários</li>
+                <li><i class="fas fa-user"></i> Usuário Um</li>
+                <li><i class="fas fa-user"></i> Usuário Dois</li>
+                <li><i class="fas fa-user"></i> Usuário Três</li>
+                <li><i class="fas fa-user"></i> Usuário Quatro</li>
+                <li><i class="fas fa-user"></i> Usuário Cinco</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
